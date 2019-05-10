@@ -1,0 +1,35 @@
+{
+  "name": "sample-travis-heroku",
+  "version": "1.0.0",
+  "description": "this repo illustrates using git heroku and travis together at last",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legendarybrij/sample-travis-heroku.git"
+  },
+  "keywords": [
+    "git",
+    "heroku",
+    "travis",
+    "continuous",
+    "integration"
+  ],
+  "author": "Brij Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legendarybrij/sample-travis-heroku/issues"
+  },
+  "homepage": "https://github.com/legendarybrij/sample-travis-heroku#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
