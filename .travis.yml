@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- stable
+- '6'
+- '4'
+npm: true
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: k9saZgtzB4boxgJvbBuvfjlO9xOo6/UhEMeSg+h2/6Zip89pWRhkUw8Kr3v8TiWXjvbc3RbY0BVSM2Ok6uPhqrFW56LEIYzLQ6uUhjWB00/qt7/z5/8vkrC4i/d3AjXEoX9CBM/yp0HhtNNtABhZKDjmlcCL5uSS/kmjuVXcJBDdgG31eTKkfos+03lqgTB0sZmVK4TF6zdpVqDc3P+mXbDO92sQyy49aMcjDdE2Sk+8MNV20tK9zremVrrWnbFg+bU1V6Q1JY4xL7aSlFKnYlrtcTQU7mMhcer665d51tzuV0mWapgrYpYGdhdz5EvBTsJvDGlDo8DAE5oojdQMz348i53jL0SgSIiK24RToXMBF94duBqWxioWU/cIvxKxf7JDjW/X0chaA1kKRLdtwgeEV9ZHAuXJ7bPi/SHiEd+GhjkLna5ABxnWfTxGmbjw57F5iU1RDEXYvWOO1ge8BAY8voUt5H3o2lzKxh2lrrhFz5TtBekCmpsGSL4sjiWDPNmG5ZJfsgby5MZPMI0AZMxlBXNwpy13c5/0WhRqrczrbAZkIsRPMvckD/l6BObVxCrT4UVLX3JWpekbE0QjfmSUhr2ch2V1H2/C4A8Sw1+1nMOe9tnSN4DUZtfPpZPM95k0EA1PXVI9s4GAYkY4i77DSBgFYIvRVLrF6Jqb8UY=
+  app: obscure-woodland-90036
+  on:
+    repo: legendarybrij/sample-travis-heroku
+    
