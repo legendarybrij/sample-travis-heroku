@@ -4,7 +4,7 @@
   "description": "this repo illustrates using git heroku and travis together at last",
   "main": "server.js",
   "scripts": {
-    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "test": "npm run eslint server.js && mocha ./tests/index-spec.js",
     "start": "node server.js"
   },
   "repository": {
